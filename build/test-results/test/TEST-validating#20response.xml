@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="validating response" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-10T21:48:59" hostname="LAPTOP" time="6.814">
+<testsuite name="validating response" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-10T23:51:21" hostname="LAPTOP" time="7.005">
   <properties/>
-  <testcase name="EMPTY_NAME" classname="validating response" time="6.814"/>
+  <testcase name="EMPTY_NAME" classname="validating response" time="7.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

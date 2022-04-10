@@ -33,7 +33,7 @@ public class Category {
             return nicename;
         }
 
-        public void setNicename(String nicename) {
+        public void setNicename() {
             this.nicename = nicename;
         }
 
