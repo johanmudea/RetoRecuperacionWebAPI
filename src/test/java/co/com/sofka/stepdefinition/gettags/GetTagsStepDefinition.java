@@ -2,6 +2,7 @@ package co.com.sofka.stepdefinition.gettags;
 
 
 import co.com.sofka.model.Category;
+import co.com.sofka.model.Tag;
 import co.com.sofka.question.ResponseFlowQuestion;
 import co.com.sofka.stepdefinition.common.ServiceSetUp;
 import io.cucumber.java.en.Given;
@@ -74,14 +75,29 @@ public class GetTagsStepDefinition extends ServiceSetUp {
 
                 );
 
+                /*
 
-        /*
+        int i=1;
+
+        String tag = responseFlowQuestion().answeredBy(actor).getTags().get(0).getNicename().toString();
+
+        actor.should(
+                seeThat("niceName",act -> tag,Matchers.notNullValue())
+
+        );
+        int i2=1;
+
+
+
+                /*
+
+
                 Category responseFlowQuestion = responseFlowQuestion().answeredBy(actor)
                         .getCategories().stream()
                         .filter(x-> x.getNicename()=="HTML").findFirst().orElse(null);
 
 
-
+        /*
 
         Category category = new ResponseFlowQuestion().answeredBy(actor)
                 .getCategories().stream()

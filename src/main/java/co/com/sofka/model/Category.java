@@ -1,12 +1,11 @@
 package co.com.sofka.model;
 
-import javax.annotation.processing.Generated;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Category {
 
-    @Generated("jsonschema2pojo")
+
 
         private Integer categoryId;
         private String name;

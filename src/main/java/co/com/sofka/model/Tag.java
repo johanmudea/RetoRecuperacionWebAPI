@@ -1,12 +1,18 @@
 package co.com.sofka.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class Tag {
 
+    @JsonIgnore
     private Integer tagId;
+
+    @JsonIgnore
     private String name;
+
     private String nicename;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
