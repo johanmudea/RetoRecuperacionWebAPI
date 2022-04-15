@@ -8,7 +8,6 @@ public class ServiceSetUp {
 
     protected static final String BASE_URI = "https://www.etnassoft.com/api/v1";
     protected static final String RESOURCE = "/get/?any_tags=[html,css,javascript]&amp;order=newest";
-    protected static final String RESOURCE_ROUTE = "https://www.etnassoft.com/api/v1/get/?any_tags=[html,css,javascript]&amp;order=newest";
 
 
     protected void generalSetUp(){

@@ -1,0 +1,9 @@
+
+
+java:S1319"dThe type of "headers" should be an interface such as "Map" rather than the implementation "HashMap".(Ã‰ˆ’ÿÿÿÿÿ
+q
+java:S1450"VRemove the "headers" field and declare it as a local variable in the relevant methods.(­ú¤üÿÿÿÿ
+t
+java:S1612"YReplace this lambda with method reference 'RequestSpecification::relaxedHTTPSValidation'.(ŞÎ„âùÿÿÿÿ
+F
+java:S1068"+Remove this unused "headers" private field.(­ú¤üÿÿÿÿ

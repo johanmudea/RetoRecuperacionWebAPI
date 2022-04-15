@@ -1,5 +1,7 @@
 package co.com.sofka.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,10 +26,12 @@ public class ResponseFlow {
     private List<Tag> tags = null;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
+    @JsonProperty("ID")
     public String getId() {
         return id;
     }
 
+    @JsonProperty("ID")
     public void setId(String id) {
         this.id = id;
     }
@@ -56,10 +60,12 @@ public class ResponseFlow {
         this.content = content;
     }
 
+    @JsonProperty("content_short")
     public String getContentShort() {
         return contentShort;
     }
 
+    @JsonProperty("content_short")
     public void setContentShort(String contentShort) {
         this.contentShort = contentShort;
     }
@@ -72,10 +78,12 @@ public class ResponseFlow {
         this.publisher = publisher;
     }
 
+    @JsonProperty("publisher_date")
     public String getPublisherDate() {
         return publisherDate;
     }
 
+    @JsonProperty("publisher_date")
     public void setPublisherDate(String publisherDate) {
         this.publisherDate = publisherDate;
     }
@@ -96,18 +104,22 @@ public class ResponseFlow {
         this.language = language;
     }
 
+    @JsonProperty("url_details")
     public String getUrlDetails() {
         return urlDetails;
     }
 
+    @JsonProperty("url_details")
     public void setUrlDetails(String urlDetails) {
         this.urlDetails = urlDetails;
     }
 
+    @JsonProperty("url_download")
     public String getUrlDownload() {
         return urlDownload;
     }
 
+    @JsonProperty("url_download")
     public void setUrlDownload(String urlDownload) {
         this.urlDownload = urlDownload;
     }
@@ -128,10 +140,12 @@ public class ResponseFlow {
         this.thumbnail = thumbnail;
     }
 
+    @JsonProperty("num_comments")
     public String getNumComments() {
         return numComments;
     }
 
+    @JsonProperty("num_comments")
     public void setNumComments(String numComments) {
         this.numComments = numComments;
     }
